@@ -21,7 +21,7 @@ public class Password {
         if (length <= 0) {
             return "ValueError";
         } else if (length < 6) {
-            return "Very week";
+            return "Very weak";
         } else if (length < 8) {
             return "Weak";
         } else if (length < 12) {
